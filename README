@@ -1,0 +1,27 @@
+Komodo Drupal Snippets
+======================
+
+These are some (hopefully) useful snippets for Komodo 6 or higher that help you write Drupal code faster.
+
+They are a work in progress and you are very welcome to suggest improvements or indeed fork our repo, add snippets of your own and then issue a pull request on github.
+
+### Installation
+
+Clone the github repo to a directory of your choice. Then, in Komodo bring up the preferences dialog. In the 'Shared support' section enable the 'Shared toolbox' and choose a 'custom data dir' and then point the directory at the location of the cloned repo.
+
+So, if you did this:
+
+    $ cd /home/user/docs
+    $ git clone https://darthsteven@github.com/computerminds/komodo_drupal_snippets.git
+
+Then the path you'd want to enter in the options dialog would be:
+
+    /home/user/docs/komodo_drupal_snippets
+
+### Usage
+
+The snippets should be available in the shared toolbox (in the right hand panel by default) and you can just click on them to insert them into the current file.
+
+### Tab to insert
+
+To be able to use the tab key to insert a matching snippet you will need an extension that provides such functionality.
