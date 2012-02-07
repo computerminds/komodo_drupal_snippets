@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_node_access_records", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_access_records().", 
+    " */", 
+    "function [[%b]]_node_access_records($node) {", 
+    "  !@#_currentPos!@#_anchor$records = array();", 
+    "\t", 
+    "\t$records[] = array(", 
+    "\t  'realm' => '[[%tabstop]]',", 
+    "\t\t'gid' => '[[%tabstop]]',", 
+    "\t\t'grant_view' => [[%tabstop:1]],", 
+    "\t\t'grant_update' => [[%tabstop:0]],", 
+    "\t\t'grant_delete' => [[%tabstop:0]],", 
+    "\t\t'priority' => [[%tabstop:0]],", 
+    "\t);", 
+    "\t", 
+    "\treturn $records;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

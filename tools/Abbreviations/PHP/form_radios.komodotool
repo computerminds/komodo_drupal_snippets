@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "form_radios", 
+  "value": [
+    "!@#_currentPos!@#_anchor$form['[[%tabstop:machine_name]]'] = array(", 
+    "\t'#type' => 'radios',", 
+    "\t'#title' => t('[[%tabstop:Title]]'),", 
+    "\t'#description' => t('[[%tabstop:Description]]'),", 
+    "\t'#options' => array([[%tabstop]]),", 
+    "\t'#default_value' => '[[%tabstop]]',", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

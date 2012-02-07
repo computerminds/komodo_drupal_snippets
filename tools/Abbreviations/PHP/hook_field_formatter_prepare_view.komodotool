@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_formatter_prepare_view", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_formatter_prepare_view()", 
+    " */", 
+    "function [[%b]]_field_formatter_prepare_view($entity_type, $entities, $field, $instances, $langcode, &$items, $displays) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

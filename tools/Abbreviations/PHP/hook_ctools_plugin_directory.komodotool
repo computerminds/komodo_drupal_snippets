@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_ctools_plugin_directory", 
+  "value": [
+    "/**", 
+    " * Implements hook_ctools_plugin_directory().", 
+    " */", 
+    "function [[%b]]_ctools_plugin_directory($module, $plugin) {", 
+    "  if ($module == 'ctools' && !empty($plugin)) {", 
+    "    !@#_currentPos!@#_anchorreturn \"plugins/$plugin\";", 
+    "  }", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_cron", 
+  "value": [
+    "/**", 
+    " * Implements hook_cron().", 
+    " */", 
+    "function [[%b]]_cron() {", 
+    "  !@#_currentPos[[%tabstop]]!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

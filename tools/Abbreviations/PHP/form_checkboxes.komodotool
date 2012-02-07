@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "form_checkboxes", 
+  "value": [
+    "$form['[[%tabstop1:machine_name]]'] = array(", 
+    "\t'#type' => 'checkboxes',", 
+    "\t'#title' => t('[[%tabstop:Title]]'),", 
+    "\t'#description' => t('[[%tabstop:Description]]'),", 
+    "\t'#options' => array([[%tabstop]]),", 
+    "\t'#default_value' => '[[%tabstop]]',", 
+    "\t'#element_validate' => array('[[%b]]_[[%tabstop1]]_checkboxes_validate'),", 
+    ");", 
+    "", 
+    "/*", 
+    "function [[%b]]_[[%tabstop1]]_checkboxes_validate(&$element, &$form_state) {", 
+    "  form_set_value($element, array_filter($element['#value']), $form_state);", 
+    "}", 
+    "*/!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_access", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_access().", 
+    " */", 
+    "function [[%b]]_field_access($op, $field, $entity_type, $entity, $account) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

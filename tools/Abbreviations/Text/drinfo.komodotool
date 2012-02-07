@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "drinfo", 
+  "value": [
+    "!@#_currentPos!@#_anchorname = \"[[%tabstop:Name]]\"", 
+    "description = \"[[%tabstop:Description]]\"", 
+    "core = \"[[%tabstop:7.x]]\"", 
+    "dependencies[] = \"[[%tabstop:module_name]]\"", 
+    ""
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

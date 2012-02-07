@@ -1,0 +1,33 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_library", 
+  "value": [
+    "/**", 
+    " * Implements hook_library().", 
+    " */", 
+    "func!@#_currentPos!@#_anchortion [[%b]]_library() {", 
+    "  $libraries = array();", 
+    "\t", 
+    "  $libraries['[[%tabstop1:library_name]]'] = array(", 
+    "    'title' => '[[%tabstop:title]]', ", 
+    "    'website' => '[[%tabstop]]', ", 
+    "    'version' => '[[%tabstop:1.0]]', ", 
+    "    'js' => array(", 
+    "      drupal_get_path('module', '[[%b]]') . '/[[%tabstop1]].js' => array(),", 
+    "    ), ", 
+    "    'css' => array(", 
+    "      drupal_get_path('module', '[[%b]]') . '/[[%tabstop1]].css' => array(", 
+    "        'type' => 'file', ", 
+    "        'media' => 'screen',", 
+    "      ),", 
+    "    ),", 
+    "  );", 
+    "\t", 
+    "\treturn $libraries;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

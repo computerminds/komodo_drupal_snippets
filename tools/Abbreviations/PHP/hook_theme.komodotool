@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_theme", 
+  "value": [
+    "/**", 
+    " * Implements hook_theme().", 
+    " */", 
+    "function [[%b]]_theme($existing, $type, $theme, $path) {", 
+    "  $items = array(", 
+    "    '[[%b]]_[[%tabstop1:NAME]]' => array(", 
+    "\t  'render element' => 'element',", 
+    "\t)", 
+    "  );", 
+    "  return $items;", 
+    "}", 
+    "", 
+    "/**", 
+    " * Theme function for [[%tabstop:DESCRIPTION]]", 
+    " */", 
+    "function [[%b]]_[[%tabstop1:NAME]]($variables) {", 
+    "  $output = '';", 
+    "  [[%tabstop]]", 
+    "  return $output;", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "false"
+}

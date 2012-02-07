@@ -1,0 +1,33 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_extra_fields", 
+  "value": [
+    "!@#_currentPos!@#_anchor/**", 
+    " * Implements hook_field_extra_fields().", 
+    " */", 
+    "function [[%b]]_field_extra_fields() {", 
+    "  $extra['node']['[[%tabstop:bundle]]'] = array(", 
+    "    'form' => array(", 
+    "      '[[%tabstop:field_name]]' => array(", 
+    "        'label' => t('[[%tabstop:field_label]]'), ", 
+    "        'description' => t('[[%tabstop:field_description]]'), ", 
+    "        'weight' => [[%tabstop:0]],", 
+    "      ), ", 
+    "    ), ", 
+    "    'display' => array(", 
+    "      '[[%tabstop:field_name]]' => array(", 
+    "        'label' => t('[[%tabstop:field_label]]'), ", 
+    "        'description' => t('[[%tabstop:field_description]]'), ", 
+    "        'weight' => [[%tabstop:0]],", 
+    "      ), ", 
+    "    ),", 
+    "  );", 
+    "", 
+    "  return $extra;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

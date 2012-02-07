@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "form_submit", 
+  "value": [
+    "$form['!@#_currentPos!@#_anchor[[%tabstop:submit]]'] = array(", 
+    "  '#type' => 'submit',", 
+    "  '#value' => t('[[%tabstop:Submit]]'),", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

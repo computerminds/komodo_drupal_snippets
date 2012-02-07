@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_formatter_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_formatter_info!@#_currentPos!@#_anchor().", 
+    " */", 
+    "function [[%b]]_field_formatter_info() {", 
+    "  return array(", 
+    "    '[[%b]]_[[%tabstop:formatter_name]]' => array(", 
+    "      'label' => t('[[%tabstop:Label]]'), ", 
+    "      'field types' => array('[[%tabstop:text]]'),", 
+    "    ),", 
+    "\t);", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

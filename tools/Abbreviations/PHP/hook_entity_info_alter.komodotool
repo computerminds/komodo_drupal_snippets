@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_entity_info_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_entity_info_alter().", 
+    " */", 
+    "function [[%b]]_entity_info_alter(&$entity_info) {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

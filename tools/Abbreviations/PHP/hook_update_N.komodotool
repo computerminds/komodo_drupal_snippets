@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_update_N", 
+  "value": [
+    "/**", 
+    " *  Implements hook_update_N().", 
+    " */", 
+    "!@#_currentPos!@#_anchorfunction [[%b]]_update_[[%tabstop1:7000]]() {", 
+    "  [[%tabstop2]]", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

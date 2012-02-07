@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "form_fieldset", 
+  "value": [
+    "!@#_currentPos!@#_anchor$form['[[%tabstop:machinename]]'] = array(", 
+    "  '#type' => 'fieldset',", 
+    "  '#collapsible' => [[%tabstop:TRUE]],", 
+    "  '#collapsed' => [[%tabstop:TRUE]],", 
+    "  '#title' => t('[[%tabstop:Title]]'),", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

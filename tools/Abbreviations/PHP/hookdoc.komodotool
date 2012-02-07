@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hookdoc", 
+  "value": [
+    "/**", 
+    " *  Implements hook_!@#_currentPos!@#_anchor[[%tabstop1:HOOK]]().", 
+    " */"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_node_presave", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_presave().", 
+    " */", 
+    "function [[%b]]_node_presave($node) {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

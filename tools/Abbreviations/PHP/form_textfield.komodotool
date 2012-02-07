@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "form_textfield", 
+  "value": [
+    "$form['!@#_currentPos!@#_anchor[[%tabstop:machine_name]]'] = array(", 
+    "\t'#type' => 'textfield',", 
+    "\t'#title' => t('[[%tabstop:Title]]'),", 
+    "\t'#description' => t('[[%tabstop:Description]]'),", 
+    "\t'#default_value' => '[[%tabstop]]',", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

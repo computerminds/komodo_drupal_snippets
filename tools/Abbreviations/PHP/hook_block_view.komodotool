@@ -1,0 +1,26 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_block_view", 
+  "value": [
+    "!@#_currentPos!@#_anchor/**", 
+    " * Implements hook_block_view().", 
+    " */", 
+    "function [[%b]]_block_view($delta = '') {", 
+    "  $block = array();", 
+    "\t", 
+    "  switch ($delta) {", 
+    "\t  case '[[%tabstop:block_id]]':", 
+    "\t\t  $block['subject'] = t('[[%tabstop:Block title]]');", 
+    "      $block['content'] = [[%tabstop]];", 
+    "\t\t\tbreak;", 
+    "\t\t", 
+    "\t}", 
+    "", 
+    "  return $block;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook", 
+  "value": [
+    "/**", 
+    " * Implements hook_[[%tabstop1:HOOK]]().", 
+    " */", 
+    "function [[%b]]_[[%tabstop1:HOOK]]([[%tabstop:ARGS]]) {", 
+    "  [[%tabstop]]", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "false"
+}

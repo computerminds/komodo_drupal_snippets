@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_node_view", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_view().", 
+    " */", 
+    "function [[%b]]_node_view($node, $view_mode, $langcode) {", 
+    "  switch ($node->type) {", 
+    "    case ''!@#_currentPos!@#_anchor:", 
+    "\t\t\t// Act on full build mode:", 
+    "      if ($view_mode == 'full') {", 
+    "\t\t\t\t", 
+    "      }", 
+    "      break;", 
+    "  }", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

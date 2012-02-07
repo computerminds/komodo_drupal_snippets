@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_block_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_info().", 
+    " */", 
+    "!@#_currentPos!@#_anchorfunction [[%b]]_block_info() {", 
+    "  $blocks['[[%tabstop:block_id]]'] = array(", 
+    "    'info' => t('[[%tabstop:Admin name]]'), ", 
+    "    'cache' => [[%tabstop:DRUPAL_NO_CACHE]], // DRUPAL_CACHE_PER_ROLE is the default", 
+    "  );", 
+    "", 
+    "  return $blocks;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

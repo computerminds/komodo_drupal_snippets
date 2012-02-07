@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_formatter_view", 
+  "value": [
+    "!@#_currentPos!@#_anchor/**", 
+    " * Implements hook_field_formatter_view().", 
+    " */", 
+    "function [[%b]]_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {", 
+    "  $element = array();", 
+    "", 
+    "  switch ($display['type']) {", 
+    "    case '[[%b]]_[[%tabstop1:formatter_name]]':", 
+    "      foreach ($items as $delta => $item) {", 
+    "        $element[$delta] = array(", 
+    "          '#markup' => check_plain($item),", 
+    "        );", 
+    "      }", 
+    "      break;", 
+    "  }", 
+    "", 
+    "  return $element;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

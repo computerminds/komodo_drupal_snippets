@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_preprocess", 
+  "value": [
+    "/**", 
+    " * Implements hook_preprocess_[[%tabstop1:HOOK]]().", 
+    " */", 
+    "function [[%b]]_preprocess!@#_currentPos!@#_anchor_[[%tabstop1:HOOK]](&$variables) {", 
+    "  [[%tabstop]]", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

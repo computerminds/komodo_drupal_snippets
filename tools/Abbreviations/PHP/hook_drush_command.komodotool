@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_drush_command", 
+  "value": [
+    "/**", 
+    " * Implements hook_drush_command().", 
+    "!@#_currentPos!@#_anchor */", 
+    "function [[%b]]_drush_command() {", 
+    "  $items = array();", 
+    "\t ", 
+    "  $items['[[%tabstop:command-name]]'] = array(", 
+    "\t\t'description' => \"[[%tabstop:Command description]]\",", 
+    "\t\t'arguments' => array(", 
+    "\t\t  [[%tabstop]],", 
+    "\t\t),", 
+    "\t\t'options' => array(", 
+    "\t\t\t[[%tabstop]],", 
+    "\t\t),", 
+    "\t\t'bootstrap' => [[%tabstop:DRUSH_BOOTSTRAP_DRUSH]], // No bootstrap at all.", 
+    "  );", 
+    "\t ", 
+    "  return $items;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

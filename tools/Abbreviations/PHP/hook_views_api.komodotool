@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_views_api", 
+  "value": [
+    "/**", 
+    " * Implements hook_views_api().", 
+    " */", 
+    "function [[%b]]_views_api() {", 
+    "  return array(", 
+    "    'api' => '2',", 
+    "    'path' => drupal_get_path('module', '[[%b]]')!@#_currentPos!@#_anchor,", 
+    "  );", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

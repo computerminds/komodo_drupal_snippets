@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_install", 
+  "value": [
+    "/**", 
+    " * Implements hook_install().", 
+    " */", 
+    "function [[%b]]_install() {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

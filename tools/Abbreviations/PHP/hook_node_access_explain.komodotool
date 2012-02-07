@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_node_access_explain", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_access_explain().", 
+    " */", 
+    "function [[%b]]_node_access_explain($row) {", 
+    "  !@#_currentPos!@#_anchorif ($row->gid == 0 && $row->realm == 'all') {", 
+    "    return 'message';", 
+    "  }", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

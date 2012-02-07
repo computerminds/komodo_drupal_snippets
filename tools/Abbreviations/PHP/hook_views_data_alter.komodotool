@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_views_data_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_views_data_alter().", 
+    " */", 
+    "function [[%b]]_views_data_alter(&$data) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_node_update", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_update().", 
+    " */", 
+    "function [[%b]]_node_update($node) {", 
+    "  !@#_anchor[[%tabstop]]!@#_currentPos", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "form_value", 
+  "value": [
+    "$form['!@#_currentPos!@#_anchor[[%tabstop:element_name]]'] = array(", 
+    "\t'#type' => 'value',", 
+    "\t'#value' => [[%tabstop:value]],", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

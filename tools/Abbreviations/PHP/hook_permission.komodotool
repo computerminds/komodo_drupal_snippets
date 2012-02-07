@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_permission", 
+  "value": [
+    "/**", 
+    " * Implements hook_permission().", 
+    " */", 
+    "function [[%b]]_permission() {", 
+    "  $perms = array();", 
+    "\t", 
+    "\t$perms['!@#_currentPos[[%tabstop:machine_name]]!@#_anchor'] = array(", 
+    "\t  'title' => t('[[%tabstop]]'),", 
+    "\t\t'description' => t('[[%tabstop]]'),", 
+    "\t);", 
+    "\t", 
+    "\treturn $perms;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

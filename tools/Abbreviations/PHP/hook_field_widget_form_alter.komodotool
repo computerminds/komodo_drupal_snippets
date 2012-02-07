@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_widget_form_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_widget_form_alter().", 
+    " */", 
+    "function [[%b]]_field_widget_form_alter(&$element, &$form_state, $context) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

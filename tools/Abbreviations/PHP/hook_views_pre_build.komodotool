@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_views_pre_build", 
+  "value": [
+    "/**", 
+    " * Implements hook_views_pre_build().", 
+    " */", 
+    "function [[%b]]_views_pre_build(&$view) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

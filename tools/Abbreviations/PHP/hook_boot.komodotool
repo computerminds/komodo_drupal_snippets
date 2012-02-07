@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_boot", 
+  "value": [
+    "/**", 
+    " * Implements hook_boot().", 
+    " */", 
+    "function [[%b]]_boot() {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

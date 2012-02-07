@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_node_grants", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_grants().", 
+    " */", 
+    "function [[%b]]_node_grants($account, $op) {", 
+    "  $grants = array();", 
+    "\t", 
+    "\t!@#_currentPos!@#_anchor$grants['[[%tabstop]]'] = array([[%tabstop]]);", 
+    "\t", 
+    "\treturn $grants;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
