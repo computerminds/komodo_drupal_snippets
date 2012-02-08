@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_action_info_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_action_info_alter().", 
+    " */", 
+    "function [[%b]]_action_info_alter(&$actions) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
