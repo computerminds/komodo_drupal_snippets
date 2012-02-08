@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_block_view_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_view_alter().", 
+    " */", 
+    "function [[%b]]_block_view_alter(&$data, $block) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
