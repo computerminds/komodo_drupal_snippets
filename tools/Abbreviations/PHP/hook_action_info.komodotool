@@ -1,22 +1,22 @@
 {
   "keyboard_shortcut": "", 
-  "set_selection": "true", 
   "name": "hook_action_info", 
-  "type": "snippet", 
   "value": [
     "/**", 
     " * Implements hook_action_info().", 
     " */", 
     "function [[%b]]_action_info() {", 
     "  return array(", 
-    "\t  !@#_currentPos!@#_anchor'[[%tabstop:action_name]]' => array(", 
-    "\t\t  'type' => '[[%tabstop:node]]',", 
-    "\t\t\t'label' => t('[[%tabstop:label]]'),", 
-    "\t\t\t'configurable' => [[%tabstop:FALSE]],", 
-    "\t\t\t'triggers' => array('[[%tabstop:node_insert]]'),", 
-    "\t\t),", 
-    "\t);", 
+    "    '[[%tabstop:action_name]]' => array(", 
+    "      'type' => '[[%tabstop:node]]',", 
+    "      'label' => t('[[%tabstop:label]]'),", 
+    "      'configurable' => [[%tabstop:FALSE]],", 
+    "      'triggers' => array('[[%tabstop:node_insert]]'),", 
+    "    ),", 
+    "  !@#_currentPos!@#_anchor);", 
     "}"
   ], 
+  "set_selection": "true", 
+  "type": "snippet", 
   "indent_relative": "true"
 }
