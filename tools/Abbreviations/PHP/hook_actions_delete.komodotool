@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_actions_delete", 
+  "value": [
+    "/**", 
+    " * Implements hook_actions_delete().", 
+    " */", 
+    "function [[%b]]_actions_delete($aid) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
