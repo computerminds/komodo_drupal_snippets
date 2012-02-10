@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_date_formats", 
+  "value": [
+    "/**", 
+    " * Implements hook_date_formats().", 
+    " */", 
+    "function !@#_currentPos!@#_anchor[[%b]]_date_formats() {", 
+    "  return array(", 
+    "    array(", 
+    "      'type' => '[[%tabstop:machine_name]]',", 
+    "      'format' => '[[%tabstop]]',", 
+    "      'locales' => array([[%tabstop]]),", 
+    "\t\t),", 
+    "\t);", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
