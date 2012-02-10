@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_date_format_types", 
+  "value": [
+    "/**", 
+    " * Implements hook_date_format_types().", 
+    " */", 
+    "function [[%b]]_date_format_types() {", 
+    "  return array(", 
+    "    !@#_currentPos!@#_anchor'[[%tabstop:machine_name]]' => t('[[%tabstop:Label]]'),", 
+    "\t);", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
