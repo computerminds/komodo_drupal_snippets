@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_user_view", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_user_view().", 
+    " */", 
+    "function [[%b]]_user_view($account, $view_mode, $langcode) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
