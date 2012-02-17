@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_block_info_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_info_alter().", 
+    " */", 
+    "function [[%b]]_block_info_alter(&$blocks, $theme, $code_blocks) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
