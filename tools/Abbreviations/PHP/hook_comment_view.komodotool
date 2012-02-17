@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_comment_view", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_comment_view().", 
+    " */", 
+    "function [[%b]]_comment_view($comment, $view_mode, $langcode) {", 
+    "  !@#_currentPos!@#_anchor$comment->[[%tabstop:field]] = '[[%tabstop]]';", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
