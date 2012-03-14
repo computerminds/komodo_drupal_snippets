@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_mail_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_mail_alter().", 
+    " */", 
+    "function [[%b]]_mail_alter(&$message) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
