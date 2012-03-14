@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_module_implements_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_module_implements_alter().", 
+    " */", 
+    "!@#_currentPos!@#_anchorfunction [[%b]]_module_implements_alter(&$implementations, $hook) {", 
+    "  if ($hook == '[[%tabstop:name]]') {", 
+    "    [[%tabstop]]", 
+    "  }", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
