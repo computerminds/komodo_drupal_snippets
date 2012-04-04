@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_exit", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_exit().", 
+    " */", 
+    "function [[%b]]_exit($destination = NULL) {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
