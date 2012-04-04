@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_token_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_token_info().", 
+    " */", 
+    "function [[%b]]_token_info() {", 
+    "  $info = array();", 
+    "  ", 
+    "  !@#_currentPos!@#_anchor$info['tokens']['[[%tabstop:type]]']['[[%tabstop:machine-name]]'] = array(", 
+    "    'name' => t('[[%tabstop:Name]]'),", 
+    "    'description' => t('[[%tabstop:Description]]'),", 
+    "  );", 
+    "  ", 
+    "  return $info;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
