@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_comment_delete", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_comment_delete().", 
+    " */", 
+    "function [[%b]]_comment_delete($comment) {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
