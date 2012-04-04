@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_comment_insert", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_comment_insert().", 
+    " */", 
+    "function [[%b]]_comment_insert($comment) {", 
+    "  !@#_currentPos!@#_anchor[[%tabstop]]", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
