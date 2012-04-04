@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_query_TAG_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_query_TAG_alter().", 
+    " */", 
+    "function [[%b]]_query_[[%tabstop:!@#_anchorTAG!@#_currentPos]]_alter(QueryAlterableInterface $query) {", 
+    "  [[%tabstop]]", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
