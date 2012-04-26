@@ -5,7 +5,7 @@
     "/**", 
     " * Implements hook_views_post_build().", 
     " */", 
-    "function [[%b]]_views_post_build(&$view) {", 
+    "function [[%b]]_views_post_build($view) {", 
     "  !@#_currentPos!@#_anchor", 
     "}"
   ], 

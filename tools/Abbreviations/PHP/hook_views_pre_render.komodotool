@@ -5,7 +5,7 @@
     "/**", 
     " * Implements hook_views_pre_render()", 
     " */", 
-    "function [[%b]]_views_pre_render(&$view) {", 
+    "function [[%b]]_views_pre_render($view) {", 
     "  !@#_currentPos!@#_anchor", 
     "}"
   ], 
