@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_user_presave", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_user_pressave().", 
+    " */", 
+    "function [[%b]]_user_presave(&$edit, $account, $category) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
