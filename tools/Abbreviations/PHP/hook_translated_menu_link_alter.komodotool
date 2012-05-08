@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_translated_menu_link_alter", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_translated_menu_link_alter().", 
+    " */", 
+    "function [[%b]]_translated_menu_link_alter(&$item, $map) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
