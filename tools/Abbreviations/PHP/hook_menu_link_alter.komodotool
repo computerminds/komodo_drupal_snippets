@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_menu_link_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_menu_link_alter().", 
+    " */", 
+    "function [[%b]]_menu_link_alter(&$item) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
